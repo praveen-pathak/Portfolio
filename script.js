@@ -5,7 +5,7 @@ function sendMail(params){
         subject_sender: document.getElementById("subjectSender").value,
         message_sender: document.getElementById("message").value,
     };
-    emailjs.send('{{SERVICE ID}}','{{TEMPLATE ID}}',tempParams)
+    emailjs.send('service_tb5jokr','template_d5dxlm1',tempParams)
      .then(function(res){
         Swal.fire({
             position: 'center',
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Your Skill","Your Hobby","Your Passion","Your Proficiency"],
+        strings: ["Problem Solver","loves Cricket","Software Developer","My Skills: Asp.Net,C#,.NetCore,SqlServer,Postgresql,MySql"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -40,7 +40,7 @@ $(document).ready(function () {
         
     });
     var typed = new Typed(".typing-2",{
-        strings: ["Your Skill","Your Hobby","Your Passion","Your Proficiency"],
+        strings: ["Problem Solver","loves Cricket","Software Developer","My Skills: Asp.Net,C#,.NetCore,SqlServer,Postgresql,MySql"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
